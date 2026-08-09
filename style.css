@@ -44,7 +44,7 @@ h1{
     font-family: "comfortaa", sans-serif;
     font-weight: 100;
     position: relative;
-    left: 80px;
+    left: 60px;
     top: 20px;
 }
 
@@ -70,15 +70,27 @@ a.links {
     text-decoration: none;
     transition: .3s;
     width: 65%;
+    user-select: none; 
 }
 
 a.links:hover {
+    cursor: pointer;
+    user-select: none;
     width: 65%;
     background-color: #eee;
     color: #292929;
 }
 
+
+ul.square {
+    list-style-type: square;
+}
+
 .no-text-cursor {
   cursor: default; 
   user-select: none; 
+}
+
+.hide-caret {
+  caret-color: transparent;
 }
