@@ -7,7 +7,7 @@ body{
 }
 
 #boxbody{
-    border: 4px solid #ffffff;
+    border: 4px solid #12343b;
     width: 400px;
     height: 700px;
     position: relative;
@@ -15,7 +15,7 @@ body{
     top: 100px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 5px 5px 5px #000000;
+    box-shadow: 5px 5px 5px #12203b;
 }
 
 h1{  
@@ -60,7 +60,7 @@ h1{
 .image img{
     width: 90px;
     border-radius: 50%;
-    border: 3px solid #2252bb;
+    border: 3px solid #0049B7;
 }
 
 a.links {
