@@ -38,6 +38,48 @@ h1{
     top: -5px;
 }
 
+#hometext{  
+    color: black;
+    font-size: 15px;
+    font-family: "comfortaa", sans-serif;
+    font-weight: 100;
+    position: relative;
+    text-align: center;
+    left: 60px;
+    top: 20px;
+
+}
+
+a.icons {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    user-select: none; 
+    position: relative;
+    top: -50px;
+    left: 320px;
+}
+
+a.homelinks {
+    display: block;
+    padding: 6px; 
+    color: #000000;
+    text-decoration: none;
+    transition: .3s;
+    width: 45%;
+    user-select: none; 
+}
+
+a.homelinks:hover {
+    cursor: pointer;
+    user-select: none;
+    width: 45%;
+    background-color: #eee;
+    color: #292929;
+}
+
+
+
 #activitytext{  
     color: black;
     font-size: 15px;
@@ -93,4 +135,15 @@ ul.square {
 
 .hide-caret {
   caret-color: transparent;
+}
+
+a.backbtn {
+    color: #000000;
+    font-family: "comfortaa", sans-serif;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    user-select: none; 
 }
